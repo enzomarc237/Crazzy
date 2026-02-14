@@ -15,6 +15,8 @@ import path_provider_foundation
 import shared_preferences_foundation
 import url_launcher_macos
 
+/// Registers all generated macOS Flutter plugins with the provided plugin registry.
+/// - Parameter registry: The `FlutterPluginRegistry` used to obtain registrars for each plugin and perform registration.
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   AppLinksMacosPlugin.register(with: registry.registrar(forPlugin: "AppLinksMacosPlugin"))
   AppkitUiElementColorsPlugin.register(with: registry.registrar(forPlugin: "AppkitUiElementColorsPlugin"))
