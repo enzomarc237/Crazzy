@@ -28,7 +28,6 @@ class NotesAIApp extends StatelessWidget {
           headline: GoogleFonts.inter(
             fontSize: 24,
             fontWeight: FontWeight.bold,
-            color: const Color(0xFF141018),
           ),
           body: GoogleFonts.inter(
             fontSize: 14,
