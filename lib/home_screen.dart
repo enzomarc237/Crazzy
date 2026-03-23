@@ -532,7 +532,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         if (_checkingFlutter)
           Container(
-            color: Colors.black.withOpacity(0.7),
+            color: Colors.black.withValues(alpha: 0.7),
             child: const Center(
               child: CircularProgressIndicator(
                 valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF0E639C)),
